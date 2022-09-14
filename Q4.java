@@ -11,9 +11,9 @@ public class Q4 {
         a = 2;
         b = 3;
         //swapping without temporary variable
-        a = a+b;
-        b = a-b;
-        a = a-b;
+        a = a+b; //after this step, a = 5, b = 3
+        b = a-b; // a = 5, b = 2
+        a = a-b; // a = 3, b = 2
         System.out.println("a: " + a);
         System.out.println("b: " + b);
     }
